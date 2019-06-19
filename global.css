@@ -1,0 +1,31 @@
+main {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.profilepic {
+  height: 250px;
+  border-radius: 100%;
+  border: 1px;
+  object-fit: cover;
+}
+
+.profilepic:hover { transform: scale(1.1);
+  transition: transform  .5s;
+}
+
+
+
+#languages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit), minmax(250px, 1fr));
+  grid-gap: 10px;
+}
+
+.languagepic {
+  width: 350px;
+}
+
+.lng {
+  list-style: none;
+}

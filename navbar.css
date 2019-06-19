@@ -1,0 +1,21 @@
+.nav {
+  background-color: black;
+  height: 50px;
+  position: fixed;
+  left:0;
+  top: 0;
+  right:0;
+  font-size: 25px;
+  text-align: inherit;
+}
+
+
+.nav a {
+ color: white;
+ text-decoration: none;
+}
+
+.nav a:hover {
+ color: gray;
+ text-decoration: none;
+}
